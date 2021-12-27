@@ -1,4 +1,49 @@
 {
+  "QRHardwareInvalidTransactionTitle": {
+    "message": "Erreur"
+  },
+  "QRHardwareMismatchedSignId": {
+    "message": "Données de transaction incompatibles. Veuillez vérifier les détails de la transaction."
+  },
+  "QRHardwarePubkeyAccountOutOfRange": {
+    "message": "Il n’y a plus de comptes. Si vous souhaitez accéder à un autre compte non répertorié ci-dessous, veuillez reconnecter votre portefeuille matériel et le sélectionner."
+  },
+  "QRHardwareScanInstructions": {
+    "message": "Placez le code QR devant votre caméra. L’écran est flou, mais cela n’affectera pas la lecture."
+  },
+  "QRHardwareSignRequestCancel": {
+    "message": "Rejeter"
+  },
+  "QRHardwareSignRequestDescription": {
+    "message": "Après avoir signé avec votre portefeuille, cliquez sur « Obtenir la signature » pour recevoir la signature"
+  },
+  "QRHardwareSignRequestGetSignature": {
+    "message": "Obtenir la signature"
+  },
+  "QRHardwareSignRequestSubtitle": {
+    "message": "Veuillez scanner le code QR avec votre portefeuille"
+  },
+  "QRHardwareSignRequestTitle": {
+    "message": "Demander la signature"
+  },
+  "QRHardwareUnknownQRCodeTitle": {
+    "message": "Erreur"
+  },
+  "QRHardwareUnknownWalletQRCode": {
+    "message": "Code QR invalide. Veuillez scanner le code QR de synchronisation du portefeuille matériel."
+  },
+  "QRHardwareWalletImporterTitle": {
+    "message": "Scannez le QR Code"
+  },
+  "QRHardwareWalletSteps1Description": {
+    "message": "Connectez un portefeuille matériel sécurisé par air gap qui communique par codes QR. Les portefeuilles de ce type officiellement pris en charge sont les suivants :"
+  },
+  "QRHardwareWalletSteps1Title": {
+    "message": "Portefeuille matériel basé avec code QR"
+  },
+  "QRHardwareWalletSteps2Description": {
+    "message": "AirGap Vault et Ngrave (bientôt disponible)"
+  },
   "about": {
     "message": "À propos"
   },
@@ -7,6 +52,14 @@
   },
   "acceleratingATransaction": {
     "message": "* Accélérer une transaction en utilisant un prix de l'essence plus élevé augmente ses chances d'être traitée plus rapidement par le réseau, mais ce n'est pas toujours garanti."
+  },
+  "acceptTermsOfUse": {
+    "message": "J’ai lu et j’accepte les $1",
+    "description": "$1 is the `terms` message"
+  },
+  "accessAndSpendNotice": {
+    "message": "$1 peut accéder et dépenser jusqu’à ce montant maximum",
+    "description": "$1 is the url of the site requesting ability to spend"
   },
   "accessingYourCamera": {
     "message": "Accès à votre appareil photo..."
@@ -20,20 +73,75 @@
   "accountName": {
     "message": "Nom du compte"
   },
+  "accountNameDuplicate": {
+    "message": "Ce nom de compte existe déjà",
+    "description": "This is an error message shown when the user enters a new account name that matches an existing account name"
+  },
   "accountOptions": {
     "message": "Options du compte"
   },
   "accountSelectionRequired": {
     "message": "Vous devez selectionner un compte !"
   },
+  "active": {
+    "message": "Actif"
+  },
+  "activity": {
+    "message": "Activité"
+  },
   "activityLog": {
     "message": "Log d'activité"
+  },
+  "add": {
+    "message": "Ajouter"
+  },
+  "addANetwork": {
+    "message": "Ajouter un réseau"
+  },
+  "addANickname": {
+    "message": "Ajouter un pseudo"
   },
   "addAcquiredTokens": {
     "message": "Ajouter les jetons que vous avez acquis par l'intermédiaire de MetaMask"
   },
   "addAlias": {
     "message": "Ajouter un alias"
+  },
+  "addContact": {
+    "message": "Ajouter un contact"
+  },
+  "addCustomToken": {
+    "message": "Ajouter un jeton personnalisé"
+  },
+  "addCustomTokenByContractAddress": {
+    "message": "Vous ne trouvez pas de jeton ? Vous pouvez ajouter manuellement n’importe quel jeton avec son adresse par copier-coller. Les adresses des contrats de jetons sont disponibles sur $1.",
+    "description": "$1 is a blockchain explorer for a specific network, e.g. Etherscan for Ethereum"
+  },
+  "addEthereumChainConfirmationDescription": {
+    "message": "Vous ne trouvez pas un jeton ? Vous pouvez ajouter manuellement n’importe quel jeton en copiant-collant son adresse. Les adresses des contrats de jetons sont disponibles sur $1."
+  },
+  "addEthereumChainConfirmationRisks": {
+    "message": "MetaMask ne vérifie pas les réseaux personnalisés."
+  },
+  "addEthereumChainConfirmationRisksLearnMore": {
+    "message": "En savoir plus sur $1.",
+    "description": "$1 is a link with text that is provided by the 'addEthereumChainConfirmationRisksLearnMoreLink' key"
+  },
+  "addEthereumChainConfirmationRisksLearnMoreLink": {
+    "message": "risques de fraude et de sécurité des réseaux",
+    "description": "Link text for the 'addEthereumChainConfirmationRisksLearnMore' translation key"
+  },
+  "addEthereumChainConfirmationTitle": {
+    "message": "Autoriser ce site à ajouter un réseau ?"
+  },
+  "addFriendsAndAddresses": {
+    "message": "Ajoutez uniquement des amis et des adresses de confiance"
+  },
+  "addMemo": {
+    "message": "Ajouter un mémo"
+  },
+  "addNFT": {
+    "message": "Ajouter un NFT"
   },
   "addNetwork": {
     "message": "Ajouter un réseau"
@@ -50,14 +158,44 @@
   "addToken": {
     "message": "Ajouter un jeton"
   },
+  "address": {
+    "message": "Adresse"
+  },
+  "addressBookIcon": {
+    "message": "Icône du carnet d'adresses"
+  },
   "advanced": {
     "message": "Paramètres avancés"
+  },
+  "advancedBaseGasFeeToolTip": {
+    "message": "Lorsque votre transaction est intégrée au bloc, toute différence entre vos frais de base maximum et les frais de base réels vous sera remboursée. Le montant total est calculé comme suit : frais de base maximum (en GWEI) × limite de carburant."
+  },
+  "advancedGasFeeDefaultOptIn": {
+    "message": "Enregistrer ces $1 comme valeur par défaut pour « Avancé »"
+  },
+  "advancedGasFeeDefaultOptOut": {
+    "message": "Toujours utiliser par défaut ces valeurs et les paramètres avancés."
+  },
+  "advancedGasFeeModalTitle": {
+    "message": "Frais de carburant avancés"
+  },
+  "advancedGasPriceTitle": {
+    "message": "Prix du gaz"
   },
   "advancedOptions": {
     "message": "Options avancées"
   },
+  "advancedPriorityFeeToolTip": {
+    "message": "Les frais de priorité (aussi appelés « pourboire du mineur ») vont directement aux mineurs et les incitent à accorder la priorité à votre transaction."
+  },
   "advancedSettingsDescription": {
     "message": "Accédez aux fonctionnalités pour les développeurs, téléchargez State Logs, réinitialisez votre compte, configurez testnets et personnalisez RPC"
+  },
+  "affirmAgree": {
+    "message": "Je suis d'accord"
+  },
+  "aggregatorFeeCost": {
+    "message": "Frais de réseau de l'agrégateur"
   },
   "amount": {
     "message": "Montant"
@@ -246,6 +384,9 @@
   },
   "currentLanguage": {
     "message": "Langue actuelle"
+  },
+  "custom": {
+    "message": "Paramètres avancés"
   },
   "customGas": {
     "message": "Personnaliser le gaz"
@@ -505,9 +646,6 @@
   "invalidSeedPhrase": {
     "message": "Phrase Seed invalide"
   },
-  "ipfsGateway": {
-    "message": "IPFS Gateway"
-  },
   "ipfsGatewayDescription": {
     "message": "Entrez l'URL de la gateway CID IPFS à utiliser pour résoudre les contenus ENS."
   },
@@ -522,6 +660,9 @@
     "message": "Réseau de test Kovan"
   },
   "learnMore": {
+    "message": "En savoir plus"
+  },
+  "learnMoreUpperCase": {
     "message": "En savoir plus"
   },
   "ledgerAccountRestriction": {
@@ -926,6 +1067,9 @@
   },
   "supportCenter": {
     "message": "Visitez notre centre d'aide"
+  },
+  "swapsAdvancedOptions": {
+    "message": "Options avancées"
   },
   "switchNetworks": {
     "message": "Changer de réseau"
